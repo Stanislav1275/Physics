@@ -1,0 +1,20 @@
+.__menu__, .__menu__active{
+    transition: 1s all ease;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 250px;
+    height: 1200px;
+    left: 0;
+    /*background-color: black;*/
+    background: no-repeat linear-gradient(180deg, #46962A 0%, rgb(153, 201, 134) 100%);
+
+    /*display: none;*/
+}
+.__menu__{
+    display: none;
+    transform: translateX(100%) scale(0,0);
+}
+.__menu__active{
+    transform: scale(1,1);
+}

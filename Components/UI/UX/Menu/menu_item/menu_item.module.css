@@ -1,0 +1,19 @@
+.menu_item{
+    min-height: 80px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
+}

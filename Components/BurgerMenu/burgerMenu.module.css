@@ -1,0 +1,40 @@
+.bgmenu, .bgmenu_active{
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 150px;
+    top: 100px;
+    transition: 0.3s all ease;
+
+
+
+
+}
+.bgm_content_item a{
+    color: white;
+}
+.bgmenu_active{
+    width: 100%;
+
+}
+.bgmenu{
+
+}
+.bgm_content_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bgm_content_active{
+    background: no-repeat linear-gradient(180deg, #31d283 30%, rgb(62, 147, 183) 100%);
+
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.bgm_content{
+    display: none;
+}

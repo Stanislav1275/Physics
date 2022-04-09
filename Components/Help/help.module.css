@@ -1,0 +1,18 @@
+.help{
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.help .soc .vk{
+    margin-left: 10px;
+}
+.help .soc {
+    /*background-color: #eee;*/
+    height: 100%;
+    display: flex;
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+}

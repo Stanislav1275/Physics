@@ -1,0 +1,17 @@
+main {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 200px;
+}
+
+
+.main .adds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adds h1{
+    color: white;
+}

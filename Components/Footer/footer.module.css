@@ -1,0 +1,23 @@
+footer{
+    /*position: relative;*/
+    background-color: red;
+
+    /*background-size: 100%;*/
+
+}
+.footer{
+    background:no-repeat url("../../../src/img/themes_img/logo2022.png") left bottom;
+    background-size: 20%;
+
+}
+
+@media screen and (max-width:650px){
+    .footer{
+        background-size: 70%;
+    }
+}
+@media screen and (max-width:984px) and (min-width: 649px){
+    .footer{
+        background-size: 60%;
+    }
+}

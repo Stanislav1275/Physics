@@ -1,0 +1,28 @@
+nav{
+
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 40px;
+    align-items: center;
+    background-color: white;
+    z-index: 99;
+}
+nav .left{
+    cursor: pointer;
+
+}
+nav .right{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+nav .right .__right__, nav .right .__right__active{
+    margin-left: 10px;
+    transition: 0.4s all ease;
+}
+nav .right .__right__active{
+    transform: rotate(180deg);
+}
