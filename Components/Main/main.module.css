@@ -1,6 +1,5 @@
 main {
     height: 100%;
-
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 200px;
@@ -10,7 +9,7 @@ main {
 .main .adds{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .adds h1{
     color: white;

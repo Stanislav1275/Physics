@@ -4,30 +4,58 @@ body{
   /*padding: 2% 5%;*/
 
 }
+.main-wrapper .top,.main-wrapper .bottom{
+  min-height: 220px;
+  /*max-height: 250px;*/
+  width: 100%;
+  background-size: cover;
+  background-color: #eee;
+}
 
+.main-wrapper .top{
+  min-height: 180px;
+  background:  no-repeat url("./img/emc2(2).png") left top,
+  no-repeat url("./img/emc2(1).png") right top;
+  background-size: 20%;
+
+}
+@media all and (min-width:1200px){
+  .main-wrapper .top{
+    background-size: 10%;
+  }
+}
+.main-wrapper .bottom{
+
+  background: no-repeat url("./img/hocking.png") left bottom ,
+  no-repeat url("./img/einstein2.png") right bottom;
+  /*height: 55%;*/
+  background-size: contain;
+
+}
 .main-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background: no-repeat url("./img/hocking.png") left bottom ,
-  no-repeat url("./img/emc2(2).png") left top,
-  no-repeat url("./img/emc2(1).png") right top,
-  no-repeat url("./img/einstein2.png") right bottom;
-  background-size: 15%;
+  align-content:space-between;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+
   height: 100%;
 
 }
 @media all and (max-width: 750px){
-  .main-wrapper {
+  .main-wrapper .top, .main-wrapper .bottom{
     background-size: 30%;
+  }
+  .main-wrapper .top{
+    background-size: 30%;
+    height: 150px;
   }
 }
 .app{
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
   background: linear-gradient(180deg, #35D488 0%, #179D1C 87.2%);
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 100px 150px minmax(min-content,850px) min-content 150px;
+  grid-template-rows: 100px 150px max-content min-content 150px;
 
   width: 100%;
   min-height:100vh;

@@ -1,5 +1,5 @@
 nav{
-
+    font-size: 18px;
     position: relative;
     display: flex;
     flex-flow: row wrap;
@@ -12,6 +12,9 @@ nav{
 nav .left{
     cursor: pointer;
 
+}
+nav .left h1, nav .right h1{
+    font-size: 20px;
 }
 nav .right{
     cursor: pointer;

@@ -1,0 +1,113 @@
+.content{
+    color: white;
+    min-height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro{
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    min-height: 350px;
+    background: linear-gradient(180deg, #25b45a 0%, #179a29 87.2%);
+
+
+    /*border-radius: 50px;*/
+}
+h1,a{
+    font-size: inherit;
+
+
+    color: inherit;
+}
+.content .intro .header h1{
+    font-size: 1.8em;
+}
+.content .sub_header{
+    margin: 5px 5px;
+}
+.header, .sub_header{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.theme .content{
+    width: 60%;
+
+    color: inherit;
+}
+.theme{
+    color:black;
+    margin-top: 5px;
+    background: no-repeat linear-gradient(180deg, #eee 0%, #eee 100%);
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.theme .head{
+
+    font-size: 1.5em;
+    color: inherit;
+}
+.theme .content h1{
+    color: inherit;
+}
+.test .usl{
+    width: 60%;
+}
+.theme .head:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50%;
+    background-color: red;
+    margin: 0 auto;
+}
+.sub_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.theme .content .img_content{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 auto;
+    /*display: flex;*/
+    /*flex-flow: column nowrap;*/
+}
+.test{
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+.test .btn_resh{
+    align-self: flex-start;
+}
+.test .btn_resh button:hover{
+    box-shadow: 2px 2px 2px orange;
+    filter: sepia(100%) brightness(96%) hue-rotate(360deg) saturate(974%);
+    -webkit-filter: sepia(100%) brightness(96%) hue-rotate(360deg) saturate(974%);
+    -moz-filter: sepia(100%) brightness(96%) hue-rotate(360deg) saturate(974%);
+    color: black;
+}
+.test .btn_resh button{
+    color: white;
+    border:0;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #34B1BF;
+}

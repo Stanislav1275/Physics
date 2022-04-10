@@ -34,6 +34,7 @@ function App() {
 
       </Nav>
         <div className="main-wrapper">
+            <div className="top"></div>
             <Routes>
                 <Route path = '/main' element = {<Main/>}/>
                 <Route path = '/kinemath' element = {<Kinemath/>}/>
@@ -45,6 +46,8 @@ function App() {
                 <Route path = '/astro' element = {<Astro/>}/>
 
             </Routes>
+            <div className="bottom"></div>
+
         </div>
         <Help></Help>
       <Footer></Footer>
